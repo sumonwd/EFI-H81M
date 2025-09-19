@@ -8,131 +8,19 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>My custom DSDT</string>
+					<string></string>
 					<key>Enabled</key>
-					<false/>
-					<key>Path</key>
-					<string>DSDT.aml</string>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>My custom SSDT</string>
-					<key>Enabled</key>
-					<false/>
-					<key>Path</key>
-					<string>SSDT-1.aml</string>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Read the comment in dsl sample</string>
-					<key>Enabled</key>
-					<false/>
-					<key>Path</key>
-					<string>SSDT-ALS0.aml</string>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Read the comment in dsl sample</string>
-					<key>Enabled</key>
-					<false/>
-					<key>Path</key>
-					<string>SSDT-AWAC-DISABLE.aml</string>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Read the comment in dsl sample</string>
-					<key>Enabled</key>
-					<false/>
-					<key>Path</key>
-					<string>SSDT-BRG0.aml</string>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Read the comment in dsl sample</string>
-					<key>Enabled</key>
-					<false/>
-					<key>Path</key>
-					<string>SSDT-EC-USBX.aml</string>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Read the comment in dsl sample</string>
-					<key>Enabled</key>
-					<false/>
+					<true/>
 					<key>Path</key>
 					<string>SSDT-EC.aml</string>
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Read the comment in dsl sample</string>
+					<string></string>
 					<key>Enabled</key>
-					<false/>
-					<key>Path</key>
-					<string>SSDT-EHCx-DISABLE.aml</string>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Read the comment in dsl sample</string>
-					<key>Enabled</key>
-					<false/>
-					<key>Path</key>
-					<string>SSDT-IMEI.aml</string>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Read the comment in dsl sample</string>
-					<key>Enabled</key>
-					<false/>
+					<true/>
 					<key>Path</key>
 					<string>SSDT-PLUG.aml</string>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Read the comment in dsl sample</string>
-					<key>Enabled</key>
-					<false/>
-					<key>Path</key>
-					<string>SSDT-PMC.aml</string>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Read the comment in dsl sample</string>
-					<key>Enabled</key>
-					<false/>
-					<key>Path</key>
-					<string>SSDT-PNLF.aml</string>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Read the comment in dsl sample</string>
-					<key>Enabled</key>
-					<false/>
-					<key>Path</key>
-					<string>SSDT-RTC0-RANGE.aml</string>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Read the comment in dsl sample</string>
-					<key>Enabled</key>
-					<false/>
-					<key>Path</key>
-					<string>SSDT-RTC0.aml</string>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Read the comment in dsl sample</string>
-					<key>Enabled</key>
-					<false/>
-					<key>Path</key>
-					<string>SSDT-SBUS-MCHC.aml</string>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Read the comment in dsl sample</string>
-					<key>Enabled</key>
-					<false/>
-					<key>Path</key>
-					<string>SSDT-UNC.aml</string>
 				</dict>
 			</array>
 			<key>Delete</key>
@@ -299,8 +187,6 @@
 				<false/>
 				<key>AvoidRuntimeDefrag</key>
 				<true/>
-				<key>ClearTaskSwitchBit</key>
-				<false/>
 				<key>DevirtualiseMmio</key>
 				<false/>
 				<key>DisableSingleUser</key>
@@ -312,8 +198,6 @@
 				<key>EnableSafeModeSlide</key>
 				<true/>
 				<key>EnableWriteUnprotector</key>
-				<true/>
-				<key>FixupAppleEfiImages</key>
 				<true/>
 				<key>ForceBooterSignature</key>
 				<false/>
@@ -364,7 +248,7 @@
 					<key>BundlePath</key>
 					<string>Lilu.kext</string>
 					<key>Comment</key>
-					<string>Patch engine</string>
+					<string>V1.7.1</string>
 					<key>Enabled</key>
 					<true/>
 					<key>ExecutablePath</key>
@@ -372,7 +256,7 @@
 					<key>MaxKernel</key>
 					<string></string>
 					<key>MinKernel</key>
-					<string>8.0.0</string>
+					<string></string>
 					<key>PlistPath</key>
 					<string>Contents/Info.plist</string>
 				</dict>
@@ -382,7 +266,7 @@
 					<key>BundlePath</key>
 					<string>VirtualSMC.kext</string>
 					<key>Comment</key>
-					<string>SMC emulator</string>
+					<string>V1.3.7</string>
 					<key>Enabled</key>
 					<true/>
 					<key>ExecutablePath</key>
@@ -390,25 +274,7 @@
 					<key>MaxKernel</key>
 					<string></string>
 					<key>MinKernel</key>
-					<string>8.0.0</string>
-					<key>PlistPath</key>
-					<string>Contents/Info.plist</string>
-				</dict>
-				<dict>
-					<key>Arch</key>
-					<string>x86_64</string>
-					<key>BundlePath</key>
-					<string>WhateverGreen.kext</string>
-					<key>Comment</key>
-					<string>Video patches</string>
-					<key>Enabled</key>
-					<true/>
-					<key>ExecutablePath</key>
-					<string>Contents/MacOS/WhateverGreen</string>
-					<key>MaxKernel</key>
 					<string></string>
-					<key>MinKernel</key>
-					<string>10.0.0</string>
 					<key>PlistPath</key>
 					<string>Contents/Info.plist</string>
 				</dict>
@@ -416,269 +282,53 @@
 					<key>Arch</key>
 					<string>Any</string>
 					<key>BundlePath</key>
-					<string>AppleALC.kext</string>
+					<string>RealtekRTL8111.kext</string>
 					<key>Comment</key>
-					<string>Audio patches</string>
+					<string>V2.5.0</string>
 					<key>Enabled</key>
 					<true/>
 					<key>ExecutablePath</key>
-					<string>Contents/MacOS/AppleALC</string>
+					<string>Contents/MacOS/RealtekRTL8111</string>
 					<key>MaxKernel</key>
 					<string></string>
 					<key>MinKernel</key>
-					<string>8.0.0</string>
+					<string></string>
 					<key>PlistPath</key>
 					<string>Contents/Info.plist</string>
 				</dict>
 				<dict>
 					<key>Arch</key>
-					<string>x86_64</string>
+					<string>Any</string>
 					<key>BundlePath</key>
-					<string>IntelMausi.kext</string>
+					<string>UTBMap.kext</string>
 					<key>Comment</key>
-					<string>Intel Ethernet LAN</string>
+					<string>V1.1</string>
 					<key>Enabled</key>
-					<false/>
+					<true/>
 					<key>ExecutablePath</key>
-					<string>Contents/MacOS/IntelMausi</string>
+					<string></string>
 					<key>MaxKernel</key>
 					<string></string>
 					<key>MinKernel</key>
-					<string>13.0.0</string>
+					<string></string>
 					<key>PlistPath</key>
 					<string>Contents/Info.plist</string>
 				</dict>
 				<dict>
 					<key>Arch</key>
-					<string>x86_64</string>
+					<string>Any</string>
 					<key>BundlePath</key>
-					<string>Legacy_USB3.kext</string>
+					<string>WhateverGreen.kext</string>
 					<key>Comment</key>
-					<string>XHC ports configuration</string>
+					<string>V1.7.0</string>
 					<key>Enabled</key>
-					<false/>
+					<true/>
 					<key>ExecutablePath</key>
-					<string></string>
+					<string>Contents/MacOS/WhateverGreen</string>
 					<key>MaxKernel</key>
 					<string></string>
 					<key>MinKernel</key>
-					<string>15.0.0</string>
-					<key>PlistPath</key>
-					<string>Contents/Info.plist</string>
-				</dict>
-				<dict>
-					<key>Arch</key>
-					<string>x86_64</string>
-					<key>BundlePath</key>
-					<string>AppleMCEReporterDisabler.kext</string>
-					<key>Comment</key>
-					<string>AppleMCEReporter disabler</string>
-					<key>Enabled</key>
-					<false/>
-					<key>ExecutablePath</key>
 					<string></string>
-					<key>MaxKernel</key>
-					<string></string>
-					<key>MinKernel</key>
-					<string>19.0.0</string>
-					<key>PlistPath</key>
-					<string>Contents/Info.plist</string>
-				</dict>
-				<dict>
-					<key>Arch</key>
-					<string>x86_64</string>
-					<key>BundlePath</key>
-					<string>VoodooPS2Controller.kext</string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>ExecutablePath</key>
-					<string>Contents/MacOS/VoodooPS2Controller</string>
-					<key>MaxKernel</key>
-					<string></string>
-					<key>MinKernel</key>
-					<string>15.0.0</string>
-					<key>PlistPath</key>
-					<string>Contents/Info.plist</string>
-				</dict>
-				<dict>
-					<key>Arch</key>
-					<string>x86_64</string>
-					<key>BundlePath</key>
-					<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>ExecutablePath</key>
-					<string>Contents/MacOS/VoodooPS2Keyboard</string>
-					<key>MaxKernel</key>
-					<string></string>
-					<key>MinKernel</key>
-					<string>15.0.0</string>
-					<key>PlistPath</key>
-					<string>Contents/Info.plist</string>
-				</dict>
-				<dict>
-					<key>Arch</key>
-					<string>x86_64</string>
-					<key>BundlePath</key>
-					<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext</string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>ExecutablePath</key>
-					<string>Contents/MacOS/VoodooPS2Mouse</string>
-					<key>MaxKernel</key>
-					<string></string>
-					<key>MinKernel</key>
-					<string>15.0.0</string>
-					<key>PlistPath</key>
-					<string>Contents/Info.plist</string>
-				</dict>
-				<dict>
-					<key>Arch</key>
-					<string>x86_64</string>
-					<key>BundlePath</key>
-					<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext</string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>ExecutablePath</key>
-					<string>Contents/MacOS/VoodooPS2Trackpad</string>
-					<key>MaxKernel</key>
-					<string></string>
-					<key>MinKernel</key>
-					<string>15.0.0</string>
-					<key>PlistPath</key>
-					<string>Contents/Info.plist</string>
-				</dict>
-				<dict>
-					<key>Arch</key>
-					<string>x86_64</string>
-					<key>BundlePath</key>
-					<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext</string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>ExecutablePath</key>
-					<string>Contents/MacOS/VoodooInput</string>
-					<key>MaxKernel</key>
-					<string></string>
-					<key>MinKernel</key>
-					<string>15.0.0</string>
-					<key>PlistPath</key>
-					<string>Contents/Info.plist</string>
-				</dict>
-				<dict>
-					<key>Arch</key>
-					<string>x86_64</string>
-					<key>BundlePath</key>
-					<string>AirportBrcmFixup.kext</string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>ExecutablePath</key>
-					<string>Contents/MacOS/AirportBrcmFixup</string>
-					<key>MaxKernel</key>
-					<string></string>
-					<key>MinKernel</key>
-					<string>12.0.0</string>
-					<key>PlistPath</key>
-					<string>Contents/Info.plist</string>
-				</dict>
-				<dict>
-					<key>Arch</key>
-					<string>x86_64</string>
-					<key>BundlePath</key>
-					<string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcm4360_Injector.kext</string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>ExecutablePath</key>
-					<string></string>
-					<key>MaxKernel</key>
-					<string>19.9.9</string>
-					<key>MinKernel</key>
-					<string>12.0.0</string>
-					<key>PlistPath</key>
-					<string>Contents/Info.plist</string>
-				</dict>
-				<dict>
-					<key>Arch</key>
-					<string>x86_64</string>
-					<key>BundlePath</key>
-					<string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcmNIC_Injector.kext</string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>ExecutablePath</key>
-					<string></string>
-					<key>MaxKernel</key>
-					<string></string>
-					<key>MinKernel</key>
-					<string>17.0.0</string>
-					<key>PlistPath</key>
-					<string>Contents/Info.plist</string>
-				</dict>
-				<dict>
-					<key>Arch</key>
-					<string>x86_64</string>
-					<key>BundlePath</key>
-					<string>IOSkywalkFamily.kext</string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>ExecutablePath</key>
-					<string>Contents/MacOS/IOSkywalkFamily</string>
-					<key>MaxKernel</key>
-					<string></string>
-					<key>MinKernel</key>
-					<string>23.0.0</string>
-					<key>PlistPath</key>
-					<string>Contents/Info.plist</string>
-				</dict>
-				<dict>
-					<key>Arch</key>
-					<string>x86_64</string>
-					<key>BundlePath</key>
-					<string>IO80211FamilyLegacy.kext</string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>ExecutablePath</key>
-					<string>Contents/MacOS/IO80211FamilyLegacy</string>
-					<key>MaxKernel</key>
-					<string></string>
-					<key>MinKernel</key>
-					<string>23.0.0</string>
-					<key>PlistPath</key>
-					<string>Contents/Info.plist</string>
-				</dict>
-				<dict>
-					<key>Arch</key>
-					<string>x86_64</string>
-					<key>BundlePath</key>
-					<string>IO80211FamilyLegacy.kext/Contents/PlugIns/AirPortBrcmNIC.kext</string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>ExecutablePath</key>
-					<string>Contents/MacOS/AirPortBrcmNIC</string>
-					<key>MaxKernel</key>
-					<string></string>
-					<key>MinKernel</key>
-					<string>23.0.0</string>
 					<key>PlistPath</key>
 					<string>Contents/Info.plist</string>
 				</dict>
@@ -1103,8 +753,6 @@
 				<false/>
 				<key>DisableIoMapper</key>
 				<false/>
-				<key>DisableIoMapperMapping</key>
-				<false/>
 				<key>DisableLinkeditJettison</key>
 				<true/>
 				<key>DisableRtcChecksum</key>
@@ -1162,8 +810,6 @@
 				<false/>
 				<key>HideAuxiliary</key>
 				<true/>
-				<key>InstanceIdentifier</key>
-				<string></string>
 				<key>LauncherOption</key>
 				<string>Disabled</string>
 				<key>LauncherPath</key>
@@ -1256,6 +902,33 @@
 			</dict>
 			<key>Serial</key>
 			<dict>
+				<key>Custom</key>
+				<dict>
+					<key>BaudRate</key>
+					<integer>115200</integer>
+					<key>ClockRate</key>
+					<integer>1843200</integer>
+					<key>DetectCable</key>
+					<false/>
+					<key>ExtendedTxFifoSize</key>
+					<integer>64</integer>
+					<key>FifoControl</key>
+					<integer>7</integer>
+					<key>LineControl</key>
+					<integer>3</integer>
+					<key>PciDeviceInfo</key>
+					<data>/w==</data>
+					<key>RegisterAccessWidth</key>
+					<integer>8</integer>
+					<key>RegisterBase</key>
+					<integer>1016</integer>
+					<key>RegisterStride</key>
+					<integer>1</integer>
+					<key>UseHardwareFlowControl</key>
+					<false/>
+					<key>UseMmio</key>
+					<false/>
+				</dict>
 				<key>Init</key>
 				<false/>
 				<key>Override</key>
@@ -1425,7 +1098,7 @@
 				<key>AdviseFeatures</key>
 				<false/>
 				<key>MLB</key>
-				<string>M0000000000000001</string>
+				<string>D25417310QXF8YLA8</string>
 				<key>MaxBIOSVersion</key>
 				<false/>
 				<key>ProcessorType</key>
@@ -1437,11 +1110,11 @@
 				<key>SystemMemoryStatus</key>
 				<string>Auto</string>
 				<key>SystemProductName</key>
-				<string>iMac19,1</string>
+				<string>iMac14,2</string>
 				<key>SystemSerialNumber</key>
-				<string>W00000000001</string>
+				<string>D25MM0HAF8JC</string>
 				<key>SystemUUID</key>
-				<string>00000000-0000-0000-0000-000000000000</string>
+				<string>8AFEC93E-2BD9-4781-920E-7F3E6ED6654A</string>
 			</dict>
 			<key>UpdateDataHub</key>
 			<true/>
@@ -1535,105 +1208,9 @@
 					<key>Comment</key>
 					<string></string>
 					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<true/>
-					<key>Path</key>
-					<string>OpenVariableRuntimeDxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
 					<true/>
 					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>OpenRuntime.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>VirtioPciDeviceDxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>Virtio10.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>VirtioSerialDxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>VirtioScsiDxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>VirtioBlkDxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>VirtioGpuDxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string>HFS+ Driver</string>
-					<key>Enabled</key>
 					<true/>
-					<key>LoadEarly</key>
-					<false/>
 					<key>Path</key>
 					<string>HfsPlus.efi</string>
 				</dict>
@@ -1643,11 +1220,11 @@
 					<key>Comment</key>
 					<string></string>
 					<key>Enabled</key>
-					<false/>
+					<true/>
 					<key>LoadEarly</key>
-					<false/>
+					<true/>
 					<key>Path</key>
-					<string>OpenCanopy.efi</string>
+					<string>OpenRuntime.efi</string>
 				</dict>
 				<dict>
 					<key>Arguments</key>
@@ -1655,479 +1232,11 @@
 					<key>Comment</key>
 					<string></string>
 					<key>Enabled</key>
-					<false/>
+					<true/>
 					<key>LoadEarly</key>
-					<false/>
+					<true/>
 					<key>Path</key>
-					<string>AudioDxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>OpenPartitionDxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>OpenUsbKbDxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>UsbMouseDxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>Ps2KeyboardDxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>Ps2MouseDxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>HiiDatabase.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>NvmExpressDxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>XhciDxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>ExFatDxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>CrScreenshotDxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>Ext4Dxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>RngDxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>Hash2DxeCrypto.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>DpcDxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>SnpDxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>MnpDxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>ArpDxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>Dhcp4Dxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>Ip4Dxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>Udp4Dxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>Mtftp4Dxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>Dhcp6Dxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>Ip6Dxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>Udp6Dxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>Mtftp6Dxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>TcpDxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>UefiPxeBcDxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>DnsDxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>HttpDxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>HttpUtilitiesDxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>HttpBootDxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>TlsDxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>RamDiskDxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>VirtioNetDxe.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>OpenLinuxBoot.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>OpenNetworkBoot.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>ResetNvramEntry.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>ToggleSipEntry.efi</string>
-				</dict>
-				<dict>
-					<key>Arguments</key>
-					<string></string>
-					<key>Comment</key>
-					<string></string>
-					<key>Enabled</key>
-					<false/>
-					<key>LoadEarly</key>
-					<false/>
-					<key>Path</key>
-					<string>FirmwareSettingsEntry.efi</string>
+					<string>OpenShell.efi</string>
 				</dict>
 			</array>
 			<key>Input</key>
@@ -2153,22 +1262,16 @@
 			<dict>
 				<key>ClearScreenOnModeSwitch</key>
 				<false/>
-				<key>ConsoleFont</key>
-				<string></string>
 				<key>ConsoleMode</key>
 				<string></string>
 				<key>DirectGopRendering</key>
 				<false/>
 				<key>ForceResolution</key>
 				<false/>
-				<key>GopBurstMode</key>
-				<false/>
 				<key>GopPassThrough</key>
 				<string>Disabled</string>
 				<key>IgnoreTextInGraphics</key>
 				<false/>
-				<key>InitialMode</key>
-				<string>Auto</string>
 				<key>ProvideConsoleGop</key>
 				<true/>
 				<key>ReconnectGraphicsOnConnect</key>
@@ -2224,8 +1327,6 @@
 				<false/>
 				<key>OSInfo</key>
 				<false/>
-				<key>PciIo</key>
-				<false/>
 				<key>UnicodeCollation</key>
 				<false/>
 			</dict>
@@ -2255,10 +1356,6 @@
 				<true/>
 				<key>ResizeGpuBars</key>
 				<integer>-1</integer>
-				<key>ResizeUsePciRbIo</key>
-				<false/>
-				<key>ShimRetainProtocol</key>
-				<false/>
 				<key>TscSyncTimeout</key>
 				<integer>0</integer>
 				<key>UnblockFsConnect</key>
@@ -2272,7 +1369,7 @@
 					<key>Comment</key>
 					<string>HD3000: IGPU memory corruption errata</string>
 					<key>Enabled</key>
-					<false/>
+					<true/>
 					<key>Size</key>
 					<integer>268435456</integer>
 					<key>Type</key>
@@ -2284,15 +1381,13 @@
 					<key>Comment</key>
 					<string>Fix black screen on wake from hibernation for Lenovo Thinkpad T490</string>
 					<key>Enabled</key>
-					<false/>
+					<true/>
 					<key>Size</key>
 					<integer>4096</integer>
 					<key>Type</key>
 					<string>RuntimeCode</string>
 				</dict>
 			</array>
-			<key>Unload</key>
-			<array/>
 		</dict>
 	</dict>
 </plist>
